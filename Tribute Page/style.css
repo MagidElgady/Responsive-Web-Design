@@ -1,13 +1,13 @@
 /* Style image */
 #img {
-    /* Image becomes responsive */
-    max-width: 100%;
-    height: auto;
+  /* Image becomes responsive */
+  max-width: 100%;
+  height: auto;
 }
 
 /* Centres image and caption */
 #img-div {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
