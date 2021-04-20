@@ -1,0 +1,6 @@
+/* Style image */
+#img {
+    /* Image becomes responsive */
+    max-width: 100%;
+    height: auto;
+}
