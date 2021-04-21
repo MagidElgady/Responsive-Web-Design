@@ -6,8 +6,25 @@
 }
 
 /* Centres image and caption */
-#img-div, #title, #subtitle, #tribute-info {
+#img-div,
+#title,
+#subtitle {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Centres list items into centre with grid */
+.timeline {
+  display: grid;
+  /* Width of text in column */
+  grid-template-columns: 80%;
+  justify-content: center;
+}
+
+/* Uses flexbox to set title in centre above timeline */
+#tribute-info {
+  display:flex;
   flex-direction: column;
   align-items: center;
 }
