@@ -22,6 +22,15 @@
   justify-content: center;
 }
 
+/* Aligns quote in centre like timeline */
+#quote {
+  display: grid;
+  /* Slightly narrower to match above text */
+  grid-template-columns:75%;
+  justify-content: center;
+  font-style: italic;
+}
+
 /* Uses flexbox to set title in centre above timeline */
 #tribute-info {
   display:flex;
