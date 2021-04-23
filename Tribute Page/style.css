@@ -8,10 +8,14 @@
 /* Centres image and caption */
 #img-div,
 #title,
-#subtitle {
+#subtitle, #tribute-link {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#img-div {
+  background-color: white;
 }
 
 /* Centres list items into centre with grid */
@@ -29,6 +33,8 @@
   grid-template-columns: 75%;
   justify-content: center;
   font-style: italic;
+  /* background-color: darkgray; */
+
 }
 
 /* Uses flexbox to set title in centre above timeline */
@@ -36,4 +42,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background-color: darkgray; */
 }
+
+#main {
+  background-color: darkgray;
+}
+
