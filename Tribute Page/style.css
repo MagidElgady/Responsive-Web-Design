@@ -8,7 +8,7 @@
 /* Centres image and caption */
 #img-div,
 #title,
-#subtitle, #tribute-link {
+#subtitle {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +34,6 @@
   justify-content: center;
   font-style: italic;
   /* background-color: darkgray; */
-
 }
 
 /* Uses flexbox to set title in centre above timeline */
@@ -48,4 +47,3 @@
 #main {
   background-color: darkgray;
 }
-
