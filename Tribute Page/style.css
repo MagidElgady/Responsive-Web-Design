@@ -22,7 +22,7 @@
 .timeline {
   display: grid;
   /* Width of text in column */
-  grid-template-columns: 80%;
+  grid-template-columns: 75%;
   justify-content: center;
 }
 
@@ -42,6 +42,11 @@
   flex-direction: column;
   align-items: center;
   /* background-color: darkgray; */
+}
+
+#tribute-link {
+  display: flex;
+  justify-content: center;
 }
 
 #main {
