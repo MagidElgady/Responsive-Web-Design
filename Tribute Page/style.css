@@ -35,6 +35,12 @@
   font-style: italic;
 }
 
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Align more-info section with centre */
 #more-info {
   text-align: center;
