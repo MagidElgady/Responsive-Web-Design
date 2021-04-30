@@ -3,7 +3,7 @@
   /* Image becomes responsive */
   max-width: 100%;
   height: auto;
-  margin-bottom:1%;
+  margin-bottom: 1%;
 }
 
 /* Centres image and caption */
@@ -48,7 +48,7 @@
 }
 
 #main {
-  background:url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
-  font-family: 'Lato', sans-serif;
-font-family: 'Noto Sans', sans-serif;
+  background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
