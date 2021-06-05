@@ -23,7 +23,19 @@
             <!-- Email field -->
             <input type="email" name="Email" id="email" placeholder="name@example.com" required>
             <!-- Age field (optional)-->
-            <input type="number" name="Age" id="age" min="13" placeholder="Enter your age">
+            <input type="number" name="Age" id="age" min="13" max="100">
+            <!-- Dropdown list of career choices -->
+            <label for="career-choices">Which career choice best describes you right now?</label>
+            <select name="careers" id="careers">
+                <option value="Select your current role">Select your current role</option>
+                <option value="Select your current role">Select your current role</option>
+                <option value="Select your current role">Select your current role</option>
+                <option value="Select your current role">Select your current role</option>
+                <option value="Select your current role">Select your current role</option>
+                <option value="Select your current role">Select your current role</option>
+
+            </select>
+    
             <!-- Submit button -->
             <button type="submit" id="submit">Submit</button>
         </form>
