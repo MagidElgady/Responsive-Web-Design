@@ -2,7 +2,7 @@
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 30%;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -31,7 +31,7 @@
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 #main-doc {
-  margin-left: 200px;
+  margin-left: 30%;
   padding: 1px 16px;
   height: 1000px;
 }
