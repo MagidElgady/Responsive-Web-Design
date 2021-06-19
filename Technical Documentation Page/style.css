@@ -1,3 +1,4 @@
+/* Add media query for laptops */
 @media (min-width:768px){
     #navbar {
         align-items: left;
