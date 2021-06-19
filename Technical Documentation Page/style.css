@@ -1,6 +1,9 @@
-/* Add media query for laptops */
-@media (min-width:768px){
-    #navbar {
-        align-items: left;
-    }
+/* Added sidebar */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    /* Grey background */
+    background-color: #f1f1f1;
+
 }
