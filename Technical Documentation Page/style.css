@@ -9,6 +9,11 @@
   overflow: auto;
 }
 
+/* Align header text centre */
+.sidebar header {
+    text-align: center;
+}
+
 /* Sidebar links */
 .sidebar a {
   display: block;
