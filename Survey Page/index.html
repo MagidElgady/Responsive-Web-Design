@@ -1,95 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <main>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-        <!-- Title -->
-        <h1 id="title">Survey Page</h1>
-        <p id="description">Thank you for taking the time to complete this survey!</p>
+      <!-- Title -->
+      <h1 id="title">Survey Page</h1>
+      <p id="description">
+        Thank you for taking the time to complete this survey!
+      </p>
 
-        <!-- Form -->
-        <form action="" id="survey-form">
-            <!-- Name field -->
-            <label for="name" id="name-label">Name</label>
-            <input type="text" name="Name" id="name" placeholder="Name" required>
-            <!-- Email field -->
-            <label for="email" id="email-label">Email</label>
-            <input type="email" name="Email" id="email" placeholder="Email" required>
-            <!-- Age field (optional)-->
-            <label for="number" id="number-label">Age</label>
-            <input type="number" name="Age" id="number" min="13" max="100" placeholder="number">
-            <!-- Dropdown list of career choices -->
-            <label for="career-choices">Which career choice best describes you right now?</label>
-            <select name="dropdown" id="dropdown">
-                <option value="Select your current role">Select your current role</option>
-                <option value="Student">Student</option>
-                <option value="Full-Time Job">Full-Time Job</option>
-                <option value="Full-Time Learner">Full-Time Learner</option>
-                <option value="Prefer not to say">Prefer not to say</option>
-                <option value="Other">Other</option>
-            </select>
-            <!-- Radio buttons -->
-            <label for="recommend">Would you recommend freeCodeCamp to a friend?
-                <input type="radio" name="recommend" id="Definitely" value="Definitely">Definitely
-                <input type="radio" name="recommend" id="Maybe" value="Maybe">Maybe
-                <input type="radio" name="recommend" id="Not Sure" value="Not Sure">Not Sure
-            </label>
-            <!-- Checkbox buttons -->
-            <label for="improvements">What would you like to see improved? (Check all that apply)</label>
-            <br>
-            <label for="front-end projects">Front-end Projects
-                <input type="checkbox" name="front-end projects" id="front-end" value="front-end">
-            </label>
-            <label for="back-end Projects">Back-End Projects
-                <input type="checkbox" name="back-end projects" id="back-end" value="back-end">
-            </label>
-            <label for="data visualisation">Data Visualisation
-                <input type="checkbox" name="data visualisation" id="data-vis" value="data-vis">
-            </label>
-            <label for="challenges">Challenges
-                <input type="checkbox" name="challenges" id="challenges" value="challenges">
-            </label>
-            <label for="open-source community">Open-Source Community
-                <input type="checkbox" name="open-source community" id="open-source" value="open-source">
-            </label>
-            <label for="Glitter help rooms">Glitter help rooms
-                <input type="checkbox" name="glitter-help-rooms" id="glitter-help" value="glitter-help">
-            </label>
-            <label for="Videos">Videos
-                <input type="checkbox" name="videos" id="videos" value="videos">
-            </label>
-            <label for="city meetups">City Meetups
-                <input type="checkbox" name="city meetups" id="city meetups" value="city meetups">
-            </label>
-            <label for="wiki">Wiki
-                <input type="checkbox" name="wiki" id="wiki" value="wiki">
-            </label>
-            <label for="forum">Forum
-                <input type="checkbox" name="forum" id="forum" value="forum">
-            </label>
-            <label for="additional courses">Additional Courses
-                <input type="checkbox" name="additional courses" id="additional courses" value="additional courses">
-            </label>
-            <br>
-            <!-- Text area -->
-            <label for="comments">Any comments or suggestions?</label>
-            <br>
-            <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
-            <!-- Submit button -->
-            <br>
-            <button type="submit" id="submit">Submit</button>
-        </form>
+      <!-- Form -->
+      <form action="" id="survey-form">
+        <!-- Name field -->
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="Name" id="name" placeholder="Name" required />
+        <!-- Email field -->
+        <label for="email" id="email-label">Email</label>
+        <input
+          type="email"
+          name="Email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        <!-- Age field (optional)-->
+        <label for="number" id="number-label">Age</label>
+        <input
+          type="number"
+          name="Age"
+          id="number"
+          min="13"
+          max="100"
+          placeholder="number"
+        />
+        <!-- Dropdown list of career choices -->
+        <label for="career-choices"
+          >Which career choice best describes you right now?</label
+        >
+        <select name="dropdown" id="dropdown">
+          <option value="Select your current role">
+            Select your current role
+          </option>
+          <option value="Student">Student</option>
+          <option value="Full-Time Job">Full-Time Job</option>
+          <option value="Full-Time Learner">Full-Time Learner</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="Other">Other</option>
+        </select>
+        <!-- Radio buttons -->
+        <label for="recommend"
+          >Would you recommend freeCodeCamp to a friend?
+          <input
+            type="radio"
+            name="recommend"
+            id="Definitely"
+            value="Definitely"
+          />Definitely
+          <input type="radio" name="recommend" id="Maybe" value="Maybe" />Maybe
+          <input
+            type="radio"
+            name="recommend"
+            id="Not Sure"
+            value="Not Sure"
+          />Not Sure
+        </label>
+        <!-- Checkbox buttons -->
+        <label for="improvements"
+          >What would you like to see improved? (Check all that apply)</label
+        >
+        <br />
+        <label for="front-end projects"
+          >Front-end Projects
+          <input
+            type="checkbox"
+            name="front-end projects"
+            id="front-end"
+            value="front-end"
+          />
+        </label>
+        <label for="back-end Projects"
+          >Back-End Projects
+          <input
+            type="checkbox"
+            name="back-end projects"
+            id="back-end"
+            value="back-end"
+          />
+        </label>
+        <label for="data visualisation"
+          >Data Visualisation
+          <input
+            type="checkbox"
+            name="data visualisation"
+            id="data-vis"
+            value="data-vis"
+          />
+        </label>
+        <label for="challenges"
+          >Challenges
+          <input
+            type="checkbox"
+            name="challenges"
+            id="challenges"
+            value="challenges"
+          />
+        </label>
+        <label for="open-source community"
+          >Open-Source Community
+          <input
+            type="checkbox"
+            name="open-source community"
+            id="open-source"
+            value="open-source"
+          />
+        </label>
+        <label for="Glitter help rooms"
+          >Glitter help rooms
+          <input
+            type="checkbox"
+            name="glitter-help-rooms"
+            id="glitter-help"
+            value="glitter-help"
+          />
+        </label>
+        <label for="Videos"
+          >Videos
+          <input type="checkbox" name="videos" id="videos" value="videos" />
+        </label>
+        <label for="city meetups"
+          >City Meetups
+          <input
+            type="checkbox"
+            name="city meetups"
+            id="city meetups"
+            value="city meetups"
+          />
+        </label>
+        <label for="wiki"
+          >Wiki
+          <input type="checkbox" name="wiki" id="wiki" value="wiki" />
+        </label>
+        <label for="forum"
+          >Forum
+          <input type="checkbox" name="forum" id="forum" value="forum" />
+        </label>
+        <label for="additional courses"
+          >Additional Courses
+          <input
+            type="checkbox"
+            name="additional courses"
+            id="additional courses"
+            value="additional courses"
+          />
+        </label>
+        <br />
+        <!-- Text area -->
+        <label for="comments">Any comments or suggestions?</label>
+        <br />
+        <textarea
+          name="suggestions"
+          id="suggestions"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <!-- Submit button -->
+        <br />
+        <button type="submit" id="submit">Submit</button>
+      </form>
     </main>
-</body>
-
+  </body>
 </html>
