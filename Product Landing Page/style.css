@@ -5,3 +5,8 @@
       height: 30%;
     }
   }
+
+#video {
+    display: flex;
+    flex-direction: column;
+}
